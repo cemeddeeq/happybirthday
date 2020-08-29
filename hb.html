@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.95, maximum-scale=0.95, user-scalable=no" />
+	<title>Happy birthday Ghëtto Quëen | Mohamed Deeq Design</title>
+	<link rel="stylesheet" type="text/css" href="extra/all.min.css">
+	<link rel="stylesheet" type="text/css" href="hb-style.css">
+</head>
+<body>
+	<div>
+		<h1>Ghëtto Quëen</h1>
+		<p><b>Joyeux anniversaire! </b>Que tous les moments heureux de ta vie t'appartiennent aujourd'hui, demain et toujours. En te souhaitant tout le bonheur possible pour ton Anniversaire !</p>
+		<span class="second-info">
+          	<i class="car copyright">Mohamed Deeq 2020</i>
+        </span>
+        <span class="second-info">
+          	<i class="car love">Fait avec</i>
+        </span>
+		<span class="second-info" style="text-align: center;">
+	      	<i class="car twitter">cemeddeeq</i>&nbsp;
+	      	&there4;&nbsp;
+	      	<i class="car facebook">meddeeq99</i>
+	    </span>
+	    <audio id="myAudio" loop autoplay>
+		  <source src="hb.mp3" type="audio/mpeg">
+		  Votre navigateur ne supporte pas l'élément audio.
+		</audio>
+	</div>
+	<canvas id="canvas"></canvas>
+	<script type="text/javascript">
+		var x = document.getElementById("myAudio");
+		x.load();
+		x.loop=true;
+		x.addEventListener('ended', function() {
+		    this.currentTime = 0;
+		    this.play();
+		}, false);
+	</script>
+	<script src="hb.script.js"></script>
+</body>
+</html>

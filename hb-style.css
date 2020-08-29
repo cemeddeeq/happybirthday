@@ -1,0 +1,75 @@
+body {
+  background-color: #FFFFFF;
+}
+div {
+  position: fixed;
+  top: 50%;
+  left: 5%;
+  right: 5%;
+  transform: translateY(-50%);
+  padding: 1rem 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.175);
+  border-top: 10px solid #007bff;
+  opacity: 0.5;
+}
+
+h1 {
+  font-family: Helvetica;
+  color: #0b0b0b;
+  font-weight: bold;
+}
+
+p {
+  font-family: Helvetica;
+  color: #0b0b0b;
+  font-size: 1rem;
+}
+
+canvas {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+}
+
+.second-info {
+  display: block;
+  font-family: Helvetica;
+  color: #0b0b0b;
+  font-size: 1rem;
+}
+
+.car {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 0.875rem;
+}
+
+.car.twitter:before {
+  content: "\f099"; 
+  font-family: 'Font Awesome 5 Brands';
+  margin-right: 0.5rem;
+}
+
+.car.facebook:before {
+  content: "\f09a"; 
+  font-family: 'Font Awesome 5 Brands';
+  margin-right: 0.5rem;
+}
+
+.car.love:after {
+  content: "\f004"; 
+  font-family: 'Font Awesome 5 Free';
+  margin-left: 0.5rem;
+}
+
+.car.copyright:before {
+  content: "\f1f9"; 
+  font-family: 'Font Awesome 5 Free';
+  margin-right: 0.5rem;
+}
+
+
